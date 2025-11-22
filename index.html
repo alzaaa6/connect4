@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connect 4</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="pagina">
+        <div class="contenedor_info">
+            <h1 class="titulo">Connect Four</h1>
+
+            <form class="formulario_jugador">
+                <!-- Jugador 1 -->
+                <div class="info_jugador">
+                    <div class="nombre_jugador">
+                        <label for="p1-name">Nombre Jugador 1</label>
+                        <input id="p1-name" name="p1-name" type="text" placeholder="Jugador 1" required />
+                    </div>
+                    <div class="seleccionar_color">
+                        <input id="p1-color" name="p1-color" type="color" value="#00ffff">
+                    </div>
+                </div>
+
+                <!-- Jugador 2 -->
+                <div class="info_jugador">
+                    <div class="nombre_jugador">
+                        <label for="p2-name">Nombre Jugador 2</label>
+                        <input id="p2-name" name="p2-name" type="text" placeholder="Jugador 2" required />
+                    </div>
+                    <div class="seleccionar_color">
+                        <input id="p2-color" name="p2-color" type="color" value="#ff00ff">
+                    </div>
+                </div>
+
+                <button type="submit" class="start_btn" id="botonPlay">Empezar partida</button>
+            </form>
+
+
+            <div id="zonaJuego">
+
+            </div>
+
+
+
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
