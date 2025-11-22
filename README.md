@@ -8,3 +8,7 @@ Recursive Function Implementation: Used a recursive function (contarDireccion) t
 Object-Oriented Programming (OOP): Utilized OOP principles with the Jugador (Player) class to store the name and color of each participant.
 
 Dynamic Styling: Implementation of CSS variables (:root) and dynamic manipulation of styles using JavaScript (for player colors and visual feedback).
+
+
+GitHub
+https://github.com/alzaaa6/connect4
